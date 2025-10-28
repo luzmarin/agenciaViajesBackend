@@ -1,0 +1,34 @@
+@dominio = http://localhost:3000
+
+###OBTENER TODOS LOS PRODUCTOS
+GET {{dominio}}/api/v1/productos
+Accept: application/json
+
+###CREAR UN NUEVO PRODUCTO
+POST {{dominio}}/api/v1/productos
+Content-Type: application/json
+
+{
+    "viaje": "Barcelona",
+    "precio": 450,
+    "fecha Ida": "05/02/2026",
+    "fecha vuelta":"10/02/2026"
+}
+
+###OBTENER PRODUCTO POR ID
+GET {{dominio}}/api/v1/productos/68e6304b33385a74cf8e4108
+Accept: application/json
+
+###ACTUALIZAR PRODUCTO POR ID
+PUT {{dominio}}/api/v1/productos/68e6304b33385a74cf8e410a
+Content-Type: application/json
+
+{
+    "viaje": "Asturias",
+    "precio": 500,
+    "fecha ida":"02/07/2026",
+    "fecha vuelta":"09/07/2026"
+}
+
+###ELIMINAR PRODUCTO POR ID
+DELETE {{dominio}}/api/v1/productos/68e6304b33385a74cf8e4110

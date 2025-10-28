@@ -1,0 +1,5 @@
+node_modules
+.env
+AUTH_TEST.rest
+COMPRAS_TEST.rest
+PRODUCTOS_REST.rest
