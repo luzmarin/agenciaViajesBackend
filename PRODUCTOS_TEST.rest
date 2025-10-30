@@ -16,11 +16,11 @@ Content-Type: application/json
 }
 
 ###OBTENER PRODUCTO POR ID
-GET {{dominio}}/api/v1/productos/68e6304b33385a74cf8e4108
+GET {{dominio}}/api/v1/productos/68fe5e05fe9f8cec1ae1f5a1
 Accept: application/json
 
 ###ACTUALIZAR PRODUCTO POR ID
-PUT {{dominio}}/api/v1/productos/68e6304b33385a74cf8e410a
+PUT {{dominio}}/api/v1/productos/68fe5e05fe9f8cec1ae1f5a3
 Content-Type: application/json
 
 {
@@ -31,4 +31,4 @@ Content-Type: application/json
 }
 
 ###ELIMINAR PRODUCTO POR ID
-DELETE {{dominio}}/api/v1/productos/68e6304b33385a74cf8e4110
+DELETE {{dominio}}/api/v1/productos/68fe5e05fe9f8cec1ae1f5a4
