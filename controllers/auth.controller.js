@@ -73,7 +73,7 @@ export const loginUser = async (req, res, next) => {
 
         //Termino la petición si el usuario no existe
         if(!user){
-            return res.status(401).json({message: "Usuario O clave invalidos"});
+            return res.status(401).json({message: "Usuario o clave invalidos"});
         }
 
         //comparo la clave del request con la clave de la DB
