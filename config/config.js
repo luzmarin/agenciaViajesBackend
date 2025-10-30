@@ -6,7 +6,6 @@ export const PORT =  3000;
 export const DOMAIN = 'http://localhost';
 
 //Variables de Base de datos para mongoDB
-export const DB_USER = process.env.DB_USER || "user";
 export const DB_PASS = process.env.DB_PASS || "clave-segura";
 export const CLUSTER = process.env.CLUSTER || "servidor.mongodb.net";
 export const DATABASE = process.env.DB_DATABASE || "proyecto_final";
